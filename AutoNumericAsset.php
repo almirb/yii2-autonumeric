@@ -22,7 +22,7 @@ class AutoNumericAsset extends AssetBundle
 	public $sourcePath = '@vendor/npm-asset/autonumeric';
 
     public $depends = [
-       // 'yii\web\JqueryAsset',
+        'yii\web\JqueryAsset',
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
     ];
